@@ -1,0 +1,3928 @@
+[
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "9e3ac1edcfc8774db32c87e6ad5af7b4",
+                "trace.id": "c8f570a4d0397ee9792b1419877e3997",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 34480,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "9e3ac1edcfc8774db32c87e6ad5af7b4",
+                "trace.id": "c8f570a4d0397ee9792b1419877e3997",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 34153,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "f1aebd6e952f538e26628dfa47b8c7c1",
+                "trace.id": "f60e63cd82fa971c09ab2990edefe237",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 35374,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "f1aebd6e952f538e26628dfa47b8c7c1",
+                "trace.id": "f60e63cd82fa971c09ab2990edefe237",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 2922,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "f1aebd6e952f538e26628dfa47b8c7c1",
+                "trace.id": "f60e63cd82fa971c09ab2990edefe237",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 494,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "eabc5542342126723cc0e62ba5bef29d",
+                "trace.id": "c5e24d989b5fb8c50170e50e42cc9aa7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 35666,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "eabc5542342126723cc0e62ba5bef29d",
+                "trace.id": "c5e24d989b5fb8c50170e50e42cc9aa7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 33851,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "eabc5542342126723cc0e62ba5bef29d",
+                "trace.id": "c5e24d989b5fb8c50170e50e42cc9aa7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 562,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "146b1c533d63d60854a3437b25b40228",
+                "trace.id": "e2f4019171b8c7622377a51c8cbde374",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 38470,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "146b1c533d63d60854a3437b25b40228",
+                "trace.id": "e2f4019171b8c7622377a51c8cbde374",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 33125,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "146b1c533d63d60854a3437b25b40228",
+                "trace.id": "e2f4019171b8c7622377a51c8cbde374",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 956,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "406e227d04183838a4ae15d6ab9663fe",
+                "trace.id": "c5463ee3d5e3ca272351e6b6bf1900ba",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 38546,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "406e227d04183838a4ae15d6ab9663fe",
+                "trace.id": "c5463ee3d5e3ca272351e6b6bf1900ba",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 540,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "5314c5855c9423c692b4553abcb98924",
+                "trace.id": "37609c58128f402405d1883e331e8894",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 38832,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "5314c5855c9423c692b4553abcb98924",
+                "trace.id": "37609c58128f402405d1883e331e8894",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 38508,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "88b33742fe132c0658b4a9cac538352f",
+                "trace.id": "2e79bfc3325d20bd4a373cb7ab8d2074",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 39122,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "88b33742fe132c0658b4a9cac538352f",
+                "trace.id": "2e79bfc3325d20bd4a373cb7ab8d2074",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 492,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "88b33742fe132c0658b4a9cac538352f",
+                "trace.id": "2e79bfc3325d20bd4a373cb7ab8d2074",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 502,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "174edb1a15282b0b90a99c1d2cccbe8a",
+                "trace.id": "7718560d7291fc41df8f581f4d3df87e",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 39315,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "174edb1a15282b0b90a99c1d2cccbe8a",
+                "trace.id": "7718560d7291fc41df8f581f4d3df87e",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 438,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "294c4aeb57d278523fc4a1f0f78232b0",
+                "trace.id": "867e1526aea884b7431b24aee83ff00e",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 39783,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "294c4aeb57d278523fc4a1f0f78232b0",
+                "trace.id": "867e1526aea884b7431b24aee83ff00e",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 466,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "082ae6658c0ed443feb38709a32c167e",
+                "trace.id": "a13559a02f8f0bdff071c6e1ce6b23f5",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 39904,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "082ae6658c0ed443feb38709a32c167e",
+                "trace.id": "a13559a02f8f0bdff071c6e1ce6b23f5",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 38126,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "082ae6658c0ed443feb38709a32c167e",
+                "trace.id": "a13559a02f8f0bdff071c6e1ce6b23f5",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 593,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "af663c424a0c63ef22453377d94b0535",
+                "trace.id": "f3e04081d0018cbf0a343090bf7a0110",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 40581,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "af663c424a0c63ef22453377d94b0535",
+                "trace.id": "f3e04081d0018cbf0a343090bf7a0110",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 513,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "169699444cf2ff8d2a8951152d5f81dd",
+                "trace.id": "e4658226f8ec49368520cf47ddf96034",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 40776,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "169699444cf2ff8d2a8951152d5f81dd",
+                "trace.id": "e4658226f8ec49368520cf47ddf96034",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 401,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "169699444cf2ff8d2a8951152d5f81dd",
+                "trace.id": "e4658226f8ec49368520cf47ddf96034",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 497,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "671773de0b7da33d24d5dfcb3bf5fefa",
+                "trace.id": "50fda7ba441cf8bd801291cb83351e3c",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 41008,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "671773de0b7da33d24d5dfcb3bf5fefa",
+                "trace.id": "50fda7ba441cf8bd801291cb83351e3c",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 411,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "671773de0b7da33d24d5dfcb3bf5fefa",
+                "trace.id": "50fda7ba441cf8bd801291cb83351e3c",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 568,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "eb840f8c53b2153d942f8a7bd598e8d4",
+                "trace.id": "c380a890829a1ccee06411d2f73930cb",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 41121,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "eb840f8c53b2153d942f8a7bd598e8d4",
+                "trace.id": "c380a890829a1ccee06411d2f73930cb",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 2668,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "eb840f8c53b2153d942f8a7bd598e8d4",
+                "trace.id": "c380a890829a1ccee06411d2f73930cb",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 456,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "59338d4f82d902c360176652a28204eb",
+                "trace.id": "05ea8105ad158986c3ec9cc142a2e55a",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 42373,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "59338d4f82d902c360176652a28204eb",
+                "trace.id": "05ea8105ad158986c3ec9cc142a2e55a",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 35360,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "59338d4f82d902c360176652a28204eb",
+                "trace.id": "05ea8105ad158986c3ec9cc142a2e55a",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 605,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "5670a8bbdcb2449566678bd64584befa",
+                "trace.id": "477f1d11afa714f9124ff0d9eb6842c9",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 42453,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "5670a8bbdcb2449566678bd64584befa",
+                "trace.id": "477f1d11afa714f9124ff0d9eb6842c9",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 42153,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "HSHI",
+                "TERMINALID": "8JMSNH2",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "2096e68706515460fc4e9ed479e53a50",
+                "trace.id": "171bd405273ea403fa913620c1790fbb",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 43712,
+                    "name": "Complete",
+                    "customer.id": "HSHI@8JMSNH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "2096e68706515460fc4e9ed479e53a50",
+                "trace.id": "171bd405273ea403fa913620c1790fbb",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 43517,
+                    "name": "GUITIME",
+                    "customer.id": "HSHI@8JMSNH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "2096e68706515460fc4e9ed479e53a50",
+                "trace.id": "171bd405273ea403fa913620c1790fbb",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 224,
+                    "name": "GUINETTIME",
+                    "customer.id": "HSHI@8JMSNH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "5d44260c96f9c02b8d104f77478ee99c",
+                "trace.id": "2e227de438c1247d267857cff1349cfa",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 50338,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "5d44260c96f9c02b8d104f77478ee99c",
+                "trace.id": "2e227de438c1247d267857cff1349cfa",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 2489,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "5d44260c96f9c02b8d104f77478ee99c",
+                "trace.id": "2e227de438c1247d267857cff1349cfa",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 437,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "3ba7cf48d9c1d1fc5de8017f4e0868da",
+                "trace.id": "bf81654e0a2581840d2b0704c2d296dd",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 51054,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "3ba7cf48d9c1d1fc5de8017f4e0868da",
+                "trace.id": "bf81654e0a2581840d2b0704c2d296dd",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 2656,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "3ba7cf48d9c1d1fc5de8017f4e0868da",
+                "trace.id": "bf81654e0a2581840d2b0704c2d296dd",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 448,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "DDWYER2",
+                "TERMINALID": "J1F9RC2",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "a54b4718da56ffd1e474f8902c6ba12f",
+                "trace.id": "7be5f3641f00bf812513b95c5905743e",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 52304,
+                    "name": "Complete",
+                    "customer.id": "DDWYER2@J1F9RC2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "a54b4718da56ffd1e474f8902c6ba12f",
+                "trace.id": "7be5f3641f00bf812513b95c5905743e",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 1069,
+                    "name": "GUITIME",
+                    "customer.id": "DDWYER2@J1F9RC2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "a54b4718da56ffd1e474f8902c6ba12f",
+                "trace.id": "7be5f3641f00bf812513b95c5905743e",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 147,
+                    "name": "GUINETTIME",
+                    "customer.id": "DDWYER2@J1F9RC2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "6239a767d704828aaf54d25f8618df99",
+                "trace.id": "5860ba5579d5687a551893e8b1bcbcf7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 57395,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "6239a767d704828aaf54d25f8618df99",
+                "trace.id": "5860ba5579d5687a551893e8b1bcbcf7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 2559,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "6239a767d704828aaf54d25f8618df99",
+                "trace.id": "5860ba5579d5687a551893e8b1bcbcf7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 446,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "aba924c5a3274f0ea5e131e958126d98",
+                "trace.id": "a98e3bb91f7002eaa20056c3329976b7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 65970,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "aba924c5a3274f0ea5e131e958126d98",
+                "trace.id": "a98e3bb91f7002eaa20056c3329976b7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 55986,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "aba924c5a3274f0ea5e131e958126d98",
+                "trace.id": "a98e3bb91f7002eaa20056c3329976b7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 643,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "DDWYER2",
+                "TERMINALID": "J1F9RC2",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "5c5aefaa140a6f3f4d43a81546d0070d",
+                "trace.id": "821bc06ac79f8c63592f442d1a83028f",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 75722,
+                    "name": "Complete",
+                    "customer.id": "DDWYER2@J1F9RC2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "5c5aefaa140a6f3f4d43a81546d0070d",
+                "trace.id": "821bc06ac79f8c63592f442d1a83028f",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 1077,
+                    "name": "GUITIME",
+                    "customer.id": "DDWYER2@J1F9RC2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "5c5aefaa140a6f3f4d43a81546d0070d",
+                "trace.id": "821bc06ac79f8c63592f442d1a83028f",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 158,
+                    "name": "GUINETTIME",
+                    "customer.id": "DDWYER2@J1F9RC2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "1e7276bbdccce5dff0c23e532de4e836",
+                "trace.id": "ef7228384302672de3ddcc802d15ab05",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 78619,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "1e7276bbdccce5dff0c23e532de4e836",
+                "trace.id": "ef7228384302672de3ddcc802d15ab05",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 68202,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "1e7276bbdccce5dff0c23e532de4e836",
+                "trace.id": "ef7228384302672de3ddcc802d15ab05",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 533,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "719a001e22af7a9e1d9a715f63c70672",
+                "trace.id": "97b5a0f93dc7814efeb4d58274f282d0",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 81550,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "719a001e22af7a9e1d9a715f63c70672",
+                "trace.id": "97b5a0f93dc7814efeb4d58274f282d0",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 65794,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "719a001e22af7a9e1d9a715f63c70672",
+                "trace.id": "97b5a0f93dc7814efeb4d58274f282d0",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 615,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "4c0bc759fda783ca324dab1ae8e851e8",
+                "trace.id": "1b483e13eec86f6686a9bbf3ccbf2945",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 95225,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "4c0bc759fda783ca324dab1ae8e851e8",
+                "trace.id": "1b483e13eec86f6686a9bbf3ccbf2945",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 83188,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "4c0bc759fda783ca324dab1ae8e851e8",
+                "trace.id": "1b483e13eec86f6686a9bbf3ccbf2945",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 578,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "AJOSHI",
+                "TERMINALID": "4Y21YC2",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "a0d61122b03a4fe6b1b5718a150a3d73",
+                "trace.id": "a8da8ae0ef4409ccc042ec9ddcae8bb7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 98404,
+                    "name": "Complete",
+                    "customer.id": "AJOSHI@4Y21YC2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "a0d61122b03a4fe6b1b5718a150a3d73",
+                "trace.id": "a8da8ae0ef4409ccc042ec9ddcae8bb7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 98282,
+                    "name": "GUITIME",
+                    "customer.id": "AJOSHI@4Y21YC2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "5714e26621ca490af4e0bff82d356147",
+                "trace.id": "86899744a11a2c520be059a5c7f8fd03",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 108216,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "5714e26621ca490af4e0bff82d356147",
+                "trace.id": "86899744a11a2c520be059a5c7f8fd03",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 86564,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "5714e26621ca490af4e0bff82d356147",
+                "trace.id": "86899744a11a2c520be059a5c7f8fd03",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 570,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "66d5735dbf60ec74038c980a3f116a47",
+                "trace.id": "3a4da8714543f31015c6ab4d4a6ef328",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 131733,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "66d5735dbf60ec74038c980a3f116a47",
+                "trace.id": "3a4da8714543f31015c6ab4d4a6ef328",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 106590,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "66d5735dbf60ec74038c980a3f116a47",
+                "trace.id": "3a4da8714543f31015c6ab4d4a6ef328",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 515,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "d0fc791e1af299e533c949465e089b6e",
+                "trace.id": "87139f762bd5525f8d0f5c7989c8ca06",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 140623,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "d0fc791e1af299e533c949465e089b6e",
+                "trace.id": "87139f762bd5525f8d0f5c7989c8ca06",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 96242,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "d0fc791e1af299e533c949465e089b6e",
+                "trace.id": "87139f762bd5525f8d0f5c7989c8ca06",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 584,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "7448978972ab30917a36e2679b1218c0",
+                "trace.id": "2f1046221b295e6e88cce1eccec36313",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 141933,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "7448978972ab30917a36e2679b1218c0",
+                "trace.id": "2f1046221b295e6e88cce1eccec36313",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 109645,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "7448978972ab30917a36e2679b1218c0",
+                "trace.id": "2f1046221b295e6e88cce1eccec36313",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 541,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "STHANKAP",
+                "TERMINALID": "3ZPBFN2",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "70549d92c1392110b5a3c10fd503cae0",
+                "trace.id": "20bf48994590eca0d32269c0fe7b51e5",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 148350,
+                    "name": "Complete",
+                    "customer.id": "STHANKAP@3ZPBFN2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "70549d92c1392110b5a3c10fd503cae0",
+                "trace.id": "20bf48994590eca0d32269c0fe7b51e5",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 147688,
+                    "name": "GUITIME",
+                    "customer.id": "STHANKAP@3ZPBFN2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "STHANKAP",
+                "TERMINALID": "3ZPBFN2",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "e22378d50c6e205694c75185047374cc",
+                "trace.id": "6677fad7ad9bbba1aaf82e5a134e2c1c",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 151949,
+                    "name": "Complete",
+                    "customer.id": "STHANKAP@3ZPBFN2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "e22378d50c6e205694c75185047374cc",
+                "trace.id": "6677fad7ad9bbba1aaf82e5a134e2c1c",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 151283,
+                    "name": "GUITIME",
+                    "customer.id": "STHANKAP@3ZPBFN2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "STHANKAP",
+                "TERMINALID": "3ZPBFN2",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "362e3238d82bb6f6527169092ec5b4fc",
+                "trace.id": "7fb67c27fe8a2365ccecff6f7535cf3c",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 161037,
+                    "name": "Complete",
+                    "customer.id": "STHANKAP@3ZPBFN2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "362e3238d82bb6f6527169092ec5b4fc",
+                "trace.id": "7fb67c27fe8a2365ccecff6f7535cf3c",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 160357,
+                    "name": "GUITIME",
+                    "customer.id": "STHANKAP@3ZPBFN2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "626d64e2f02805bdfb76a9cf32651cdd",
+                "trace.id": "40e41c3f335d6c68f6f7f45d663971c7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 314494,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "626d64e2f02805bdfb76a9cf32651cdd",
+                "trace.id": "40e41c3f335d6c68f6f7f45d663971c7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 262858,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "626d64e2f02805bdfb76a9cf32651cdd",
+                "trace.id": "40e41c3f335d6c68f6f7f45d663971c7",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 535,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "DDWYER2",
+                "TERMINALID": "J1F9RC2",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "b5582581383c1e35c10160d6e2fb9f4a",
+                "trace.id": "6bc13d80a0227806732379b0c2ab23ec",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 415633,
+                    "name": "Complete",
+                    "customer.id": "DDWYER2@J1F9RC2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "b5582581383c1e35c10160d6e2fb9f4a",
+                "trace.id": "6bc13d80a0227806732379b0c2ab23ec",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 1156,
+                    "name": "GUITIME",
+                    "customer.id": "DDWYER2@J1F9RC2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "b5582581383c1e35c10160d6e2fb9f4a",
+                "trace.id": "6bc13d80a0227806732379b0c2ab23ec",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 14180,
+                    "name": "GUINETTIME",
+                    "customer.id": "DDWYER2@J1F9RC2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "3ffece8bba342c7e8eef7b20958153e4",
+                "trace.id": "3176a026bd5c3671640313d3484fcac4",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 30463,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "3ffece8bba342c7e8eef7b20958153e4",
+                "trace.id": "3176a026bd5c3671640313d3484fcac4",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 30227,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "ca24e6d632334f1124cc269c327c50eb",
+                "trace.id": "0ab6a8aa428b421a1e2b49be323576e6",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 32922,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "ca24e6d632334f1124cc269c327c50eb",
+                "trace.id": "0ab6a8aa428b421a1e2b49be323576e6",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 31532,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "ca24e6d632334f1124cc269c327c50eb",
+                "trace.id": "0ab6a8aa428b421a1e2b49be323576e6",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 740,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "dcc5eb19542174ab75b7f0b32dd65646",
+                "trace.id": "6bfe0722e12ad4efa49ea87b6d858fd4",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 32984,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "dcc5eb19542174ab75b7f0b32dd65646",
+                "trace.id": "6bfe0722e12ad4efa49ea87b6d858fd4",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 1840,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "dcc5eb19542174ab75b7f0b32dd65646",
+                "trace.id": "6bfe0722e12ad4efa49ea87b6d858fd4",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 559,
+                    "name": "GUINETTIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "RGOPINAT",
+                "TERMINALID": "352MQ13",
+                "nwHost": "hubpgts1",
+                "nwClient": "005",
+                "nwUniqueId": "hubpgts1_PG1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "b4368b5bb993a178079635e7993ef7c2",
+                "trace.id": "340bbf24636deeec586fa66944bd0a01",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 34391,
+                    "name": "Complete",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "b4368b5bb993a178079635e7993ef7c2",
+                "trace.id": "340bbf24636deeec586fa66944bd0a01",
+                "attributes": {
+                    "service.instance.id": "hubpgts1_PG1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 34137,
+                    "name": "GUITIME",
+                    "customer.id": "RGOPINAT@352MQ13",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "efe123d421aa21b6e07bac798f813e0e",
+                "trace.id": "dbd19de6c11fb2ae3b2afa3ed00ea1e1",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 42915,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "efe123d421aa21b6e07bac798f813e0e",
+                "trace.id": "dbd19de6c11fb2ae3b2afa3ed00ea1e1",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 149,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "d4981599a1800ad258983c5205d791d4",
+                "trace.id": "0e383a6026dd5df6c3f102137040e2f4",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 45870,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "d4981599a1800ad258983c5205d791d4",
+                "trace.id": "0e383a6026dd5df6c3f102137040e2f4",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 972,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "d4981599a1800ad258983c5205d791d4",
+                "trace.id": "0e383a6026dd5df6c3f102137040e2f4",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 413,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "08b80648d986fab213b0401e05b37634",
+                "trace.id": "dd462513aa2d18ba86f4ca9bc89b19f0",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 46090,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "08b80648d986fab213b0401e05b37634",
+                "trace.id": "dd462513aa2d18ba86f4ca9bc89b19f0",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 123,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "8212e29d195be260ddefa26c9ecf88fd",
+                "trace.id": "588e3540b9c828f48d46edf838fd5293",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 47670,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "8212e29d195be260ddefa26c9ecf88fd",
+                "trace.id": "588e3540b9c828f48d46edf838fd5293",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 5189,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "8212e29d195be260ddefa26c9ecf88fd",
+                "trace.id": "588e3540b9c828f48d46edf838fd5293",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 391,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "4a8df99929feeaba0c933cf4bc0d5401",
+                "trace.id": "0c9ce1078f1d4b007e4290d24c66c5bc",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 52134,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "4a8df99929feeaba0c933cf4bc0d5401",
+                "trace.id": "0c9ce1078f1d4b007e4290d24c66c5bc",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 3602,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "4a8df99929feeaba0c933cf4bc0d5401",
+                "trace.id": "0c9ce1078f1d4b007e4290d24c66c5bc",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 294,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "2b32fc1d43a53c2cd4892d501dcabb2a",
+                "trace.id": "df4ea1f27f48afa0bf6db4ac516221af",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 55347,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "2b32fc1d43a53c2cd4892d501dcabb2a",
+                "trace.id": "df4ea1f27f48afa0bf6db4ac516221af",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 1011,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "2b32fc1d43a53c2cd4892d501dcabb2a",
+                "trace.id": "df4ea1f27f48afa0bf6db4ac516221af",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 444,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "28449ba20e28b77c745452928c23490d",
+                "trace.id": "2752b3c798c615e6a5921086064ec0e4",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 55930,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "28449ba20e28b77c745452928c23490d",
+                "trace.id": "2752b3c798c615e6a5921086064ec0e4",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 194,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "4f37f73f75f627bb1b0dbb2df9686669",
+                "trace.id": "6b2ef742d5554dec914b9e1fddc95096",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 65371,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "4f37f73f75f627bb1b0dbb2df9686669",
+                "trace.id": "6b2ef742d5554dec914b9e1fddc95096",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 1643,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "4f37f73f75f627bb1b0dbb2df9686669",
+                "trace.id": "6b2ef742d5554dec914b9e1fddc95096",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 501,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "dc591c7af0ee59694419212f8cc3198a",
+                "trace.id": "3bcfbb1dd5a495015aae6ca7cab98de3",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 66132,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "dc591c7af0ee59694419212f8cc3198a",
+                "trace.id": "3bcfbb1dd5a495015aae6ca7cab98de3",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 1484,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "dc591c7af0ee59694419212f8cc3198a",
+                "trace.id": "3bcfbb1dd5a495015aae6ca7cab98de3",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 425,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "54d69d96ccb29e445847faedbc55a857",
+                "trace.id": "49cf086b0412c2abfbf559e492cc4d30",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 88083,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "54d69d96ccb29e445847faedbc55a857",
+                "trace.id": "49cf086b0412c2abfbf559e492cc4d30",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 19300,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "54d69d96ccb29e445847faedbc55a857",
+                "trace.id": "49cf086b0412c2abfbf559e492cc4d30",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 226,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "d12397c312e6bf7ba72a6dc1f600ef5c",
+                "trace.id": "dae5bc2313e62c44782ec830c5896e44",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 126196,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "d12397c312e6bf7ba72a6dc1f600ef5c",
+                "trace.id": "dae5bc2313e62c44782ec830c5896e44",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 240,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "9d5ea0a0f28097caa34bc85400349d47",
+                "trace.id": "ca2abd9d45f966d3f0d5a919aa79f802",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 194816,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "9d5ea0a0f28097caa34bc85400349d47",
+                "trace.id": "ca2abd9d45f966d3f0d5a919aa79f802",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 186,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "a349e907aa29153937b3c8668fd56401",
+                "trace.id": "64ae09aad4f4fe00b7a8987f25032cdc",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 259773,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "a349e907aa29153937b3c8668fd56401",
+                "trace.id": "64ae09aad4f4fe00b7a8987f25032cdc",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 23546,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "a349e907aa29153937b3c8668fd56401",
+                "trace.id": "64ae09aad4f4fe00b7a8987f25032cdc",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 292,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "0e3f47e4e00b3345b1a99087648c55bb",
+                "trace.id": "9d205c39cfb11516d5b0a3af76adf9e9",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 546577,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "0e3f47e4e00b3345b1a99087648c55bb",
+                "trace.id": "9d205c39cfb11516d5b0a3af76adf9e9",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 30444,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "0e3f47e4e00b3345b1a99087648c55bb",
+                "trace.id": "9d205c39cfb11516d5b0a3af76adf9e9",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 197,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "80fa12974a67694ba0350ebe2c8d161a",
+                "trace.id": "5d2cdc1a18805f1027e9cf69d517a1cc",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 549711,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "80fa12974a67694ba0350ebe2c8d161a",
+                "trace.id": "5d2cdc1a18805f1027e9cf69d517a1cc",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 27157,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "80fa12974a67694ba0350ebe2c8d161a",
+                "trace.id": "5d2cdc1a18805f1027e9cf69d517a1cc",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 239,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "d212fafbf160b8f75f07fc04f2c6b79d",
+                "trace.id": "9e0e62f404081c4adaec80a1d25d575e",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 939962,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "d212fafbf160b8f75f07fc04f2c6b79d",
+                "trace.id": "9e0e62f404081c4adaec80a1d25d575e",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 17301,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "d212fafbf160b8f75f07fc04f2c6b79d",
+                "trace.id": "9e0e62f404081c4adaec80a1d25d575e",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 284,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "370a1f24d85ed0bd3743a8a2aa68c059",
+                "trace.id": "365a6f4fb16244715708ced5efd05b20",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 964200,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "370a1f24d85ed0bd3743a8a2aa68c059",
+                "trace.id": "365a6f4fb16244715708ced5efd05b20",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 35400,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "370a1f24d85ed0bd3743a8a2aa68c059",
+                "trace.id": "365a6f4fb16244715708ced5efd05b20",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 231,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "d212fafbf160b8f75f07fc04f2c6b79d",
+                "trace.id": "9e0e62f404081c4adaec80a1d25d575e",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1455840,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "d212fafbf160b8f75f07fc04f2c6b79d",
+                "trace.id": "9e0e62f404081c4adaec80a1d25d575e",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 27137,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "d212fafbf160b8f75f07fc04f2c6b79d",
+                "trace.id": "9e0e62f404081c4adaec80a1d25d575e",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 357,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "5bb1dbca88af4448f5f0dd148570a3f5",
+                "trace.id": "085d0e19413c7ac32dad2fd8d4c0d7f3",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1579651,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "5bb1dbca88af4448f5f0dd148570a3f5",
+                "trace.id": "085d0e19413c7ac32dad2fd8d4c0d7f3",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 44830,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "5bb1dbca88af4448f5f0dd148570a3f5",
+                "trace.id": "085d0e19413c7ac32dad2fd8d4c0d7f3",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 265,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "29ae8dca8abe9329094c5576b1fce883",
+                "trace.id": "397b6a188e47330f505516d3c81cfab3",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1584297,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "29ae8dca8abe9329094c5576b1fce883",
+                "trace.id": "397b6a188e47330f505516d3c81cfab3",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 44438,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "29ae8dca8abe9329094c5576b1fce883",
+                "trace.id": "397b6a188e47330f505516d3c81cfab3",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 265,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "71e696b0212b6d583d9df8eaefa96307",
+                "trace.id": "a4f8d7300f9849adbdce44ceef9cd4a0",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1589469,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "71e696b0212b6d583d9df8eaefa96307",
+                "trace.id": "a4f8d7300f9849adbdce44ceef9cd4a0",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 45486,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "71e696b0212b6d583d9df8eaefa96307",
+                "trace.id": "a4f8d7300f9849adbdce44ceef9cd4a0",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 257,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "03d9415209c0fa62dbcef7c13c443200",
+                "trace.id": "34529dfa07af42942f7259bdb83d1225",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1593915,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "03d9415209c0fa62dbcef7c13c443200",
+                "trace.id": "34529dfa07af42942f7259bdb83d1225",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 41393,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "03d9415209c0fa62dbcef7c13c443200",
+                "trace.id": "34529dfa07af42942f7259bdb83d1225",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 343,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "bafe9fdcadc16cdf1f49cb1d53228015",
+                "trace.id": "9990e7e613eb8d23fd1db1ce73753363",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1598081,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "bafe9fdcadc16cdf1f49cb1d53228015",
+                "trace.id": "9990e7e613eb8d23fd1db1ce73753363",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 76636,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "bafe9fdcadc16cdf1f49cb1d53228015",
+                "trace.id": "9990e7e613eb8d23fd1db1ce73753363",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 259,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "ece8b2384dbf0e4872f0febc63244b7a",
+                "trace.id": "f3b8b842c71eb5f681aa833efefb689f",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1620016,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "ece8b2384dbf0e4872f0febc63244b7a",
+                "trace.id": "f3b8b842c71eb5f681aa833efefb689f",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 42779,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "ece8b2384dbf0e4872f0febc63244b7a",
+                "trace.id": "f3b8b842c71eb5f681aa833efefb689f",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 264,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "7f9bc66ce3fc5894655c5b4bcee49626",
+                "trace.id": "3173c3aac8ccbe474ed38e30fbdcb45a",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1659433,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "7f9bc66ce3fc5894655c5b4bcee49626",
+                "trace.id": "3173c3aac8ccbe474ed38e30fbdcb45a",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 39737,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "7f9bc66ce3fc5894655c5b4bcee49626",
+                "trace.id": "3173c3aac8ccbe474ed38e30fbdcb45a",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 365,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "635334503337094a5d5335a9c63e6ca8",
+                "trace.id": "268b35df5c21c450e78e23a3c0be798c",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1669554,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "635334503337094a5d5335a9c63e6ca8",
+                "trace.id": "268b35df5c21c450e78e23a3c0be798c",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 42539,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "635334503337094a5d5335a9c63e6ca8",
+                "trace.id": "268b35df5c21c450e78e23a3c0be798c",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 295,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "1dd9acd3cec3e3dc2b2a432c09cb4086",
+                "trace.id": "e4669a3ec9e735c77abfb3f37b38c68f",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1699963,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "1dd9acd3cec3e3dc2b2a432c09cb4086",
+                "trace.id": "e4669a3ec9e735c77abfb3f37b38c68f",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 43916,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "1dd9acd3cec3e3dc2b2a432c09cb4086",
+                "trace.id": "e4669a3ec9e735c77abfb3f37b38c68f",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 318,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "d17fd21503ebc4524f3710ff9e095c5d",
+                "trace.id": "ad1cfe1cd87cb4ee0cb404187f3efaaf",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1709274,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "d17fd21503ebc4524f3710ff9e095c5d",
+                "trace.id": "ad1cfe1cd87cb4ee0cb404187f3efaaf",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 71039,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "d17fd21503ebc4524f3710ff9e095c5d",
+                "trace.id": "ad1cfe1cd87cb4ee0cb404187f3efaaf",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 320,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "24d5b9663df8fce8b6d140481c765eda",
+                "trace.id": "10878ea43d997819ad9ae73d3fadfdf5",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1721517,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "24d5b9663df8fce8b6d140481c765eda",
+                "trace.id": "10878ea43d997819ad9ae73d3fadfdf5",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 43807,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "24d5b9663df8fce8b6d140481c765eda",
+                "trace.id": "10878ea43d997819ad9ae73d3fadfdf5",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 307,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "1d9ddaf912ead08b4b4edf4fa93beec0",
+                "trace.id": "65141b6bc6bb97069502eaa848bd9069",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1733903,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "1d9ddaf912ead08b4b4edf4fa93beec0",
+                "trace.id": "65141b6bc6bb97069502eaa848bd9069",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 43515,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "1d9ddaf912ead08b4b4edf4fa93beec0",
+                "trace.id": "65141b6bc6bb97069502eaa848bd9069",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 263,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "1f6471b9e036e745ea500cabfe4d2eb7",
+                "trace.id": "a237cf34d7b2cdb98bf4d4f70592168d",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1734600,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "1f6471b9e036e745ea500cabfe4d2eb7",
+                "trace.id": "a237cf34d7b2cdb98bf4d4f70592168d",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 40974,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "1f6471b9e036e745ea500cabfe4d2eb7",
+                "trace.id": "a237cf34d7b2cdb98bf4d4f70592168d",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 261,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "1faaa4df90ba823d842f7423ebb859ee",
+                "trace.id": "17138605e9f8f490ca7be314f0c48051",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1743020,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "1faaa4df90ba823d842f7423ebb859ee",
+                "trace.id": "17138605e9f8f490ca7be314f0c48051",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 45293,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "1faaa4df90ba823d842f7423ebb859ee",
+                "trace.id": "17138605e9f8f490ca7be314f0c48051",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 273,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "aaa9268a586d5fa105589755bc2d68e5",
+                "trace.id": "4d8b590d54d8434bd35a43b7f5758094",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1744546,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "aaa9268a586d5fa105589755bc2d68e5",
+                "trace.id": "4d8b590d54d8434bd35a43b7f5758094",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 44883,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "aaa9268a586d5fa105589755bc2d68e5",
+                "trace.id": "4d8b590d54d8434bd35a43b7f5758094",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 291,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "f6041810b2d5e687b1c4b26eeea9cf7f",
+                "trace.id": "e4da9bb32efc4133a31d3af68a04d4c4",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 1809322,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "f6041810b2d5e687b1c4b26eeea9cf7f",
+                "trace.id": "e4da9bb32efc4133a31d3af68a04d4c4",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 42679,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "f6041810b2d5e687b1c4b26eeea9cf7f",
+                "trace.id": "e4da9bb32efc4133a31d3af68a04d4c4",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 305,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "7af700ed00438ae18a5f50d02e7369e6",
+                "trace.id": "0619efdf70dd8fe4e59a9a8468059813",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 2334743,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "7af700ed00438ae18a5f50d02e7369e6",
+                "trace.id": "0619efdf70dd8fe4e59a9a8468059813",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 56845,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "7af700ed00438ae18a5f50d02e7369e6",
+                "trace.id": "0619efdf70dd8fe4e59a9a8468059813",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 306,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "3dc485bc35a95591526878e621c791e6",
+                "trace.id": "101c14c3b452599972c850e2252e06de",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 2833114,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "3dc485bc35a95591526878e621c791e6",
+                "trace.id": "101c14c3b452599972c850e2252e06de",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 66056,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "3dc485bc35a95591526878e621c791e6",
+                "trace.id": "101c14c3b452599972c850e2252e06de",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 289,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "04fae7b08fe1c5ecc549fb03df07690f",
+                "trace.id": "d7789979e958b6acf8c49875f4424026",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 39640,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "04fae7b08fe1c5ecc549fb03df07690f",
+                "trace.id": "d7789979e958b6acf8c49875f4424026",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 3340,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "04fae7b08fe1c5ecc549fb03df07690f",
+                "trace.id": "d7789979e958b6acf8c49875f4424026",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 299,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "4325bba05118292ece0dbcc0d69b9c3f",
+                "trace.id": "720970e8be3665de19114e22e7d9afab",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 39769,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "4325bba05118292ece0dbcc0d69b9c3f",
+                "trace.id": "720970e8be3665de19114e22e7d9afab",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 3614,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "4325bba05118292ece0dbcc0d69b9c3f",
+                "trace.id": "720970e8be3665de19114e22e7d9afab",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 264,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "8f5895735f0d7017705bd14e7f70c7b6",
+                "trace.id": "bf5ebdaaf04b2e139bf532155c8b76d6",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 41087,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "8f5895735f0d7017705bd14e7f70c7b6",
+                "trace.id": "bf5ebdaaf04b2e139bf532155c8b76d6",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 4900,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "8f5895735f0d7017705bd14e7f70c7b6",
+                "trace.id": "bf5ebdaaf04b2e139bf532155c8b76d6",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 285,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    },
+    {
+        "common": {
+            "attributes": {
+                "ACCOUNT": "SMANAM",
+                "TERMINALID": "CCBSBH2",
+                "nwHost": "hubptm01",
+                "nwClient": "005",
+                "nwUniqueId": "hubptm01_PT1_03"
+            }
+        },
+        "spans": [
+            {
+                "id": "a687f95bb667fc28c6924f59bb43fe35",
+                "trace.id": "a4f0aedc9871b79bb6b4ccb2fe5b60c2",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "SERVER",
+                    "duration.ms": 41975,
+                    "name": "Complete",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "a687f95bb667fc28c6924f59bb43fe35",
+                "trace.id": "a4f0aedc9871b79bb6b4ccb2fe5b60c2",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUITIME",
+                    "duration.ms": 853,
+                    "name": "GUITIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            },
+            {
+                "id": "a687f95bb667fc28c6924f59bb43fe35",
+                "trace.id": "a4f0aedc9871b79bb6b4ccb2fe5b60c2",
+                "attributes": {
+                    "service.instance.id": "hubptm01_PT1_03",
+                    "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+                    "span.kind": "GUINETTIME",
+                    "duration.ms": 734,
+                    "name": "GUINETTIME",
+                    "customer.id": "SMANAM@CCBSBH2",
+                    "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job"
+                }
+            }
+        ]
+    }
+]
