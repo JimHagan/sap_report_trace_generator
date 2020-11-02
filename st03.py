@@ -155,7 +155,7 @@ def get_st03_hitlist_resptime_events(account_id, insights_query_key, time_lookba
 def main():
     st03_recs = get_st03_hitlist_resptime_events(
       '2901317',
-      os.getenv('NR_HUBBELL_INSIGHTS_QUERY_KEY'),
+      os.getenv('NR_TRACEGEN_INSIGHTS_QUERY_KEY'),
       time_lookback_minutes=15,
       fields_to_pull= ",".join(
           ['ACCOUNT', 'TERMINALID', 'GUITIME', 'GUINETTIME', 'DBCALLS',
@@ -179,7 +179,7 @@ def main():
     trace_file.close()
 
 
-    post_st03_hitlist_resptime_traces(trace_recs, '2901317', os.getenv('NR_HUBBELL_INSIGHTS_INSERT_KEY'))
+    post_st03_hitlist_resptime_traces(trace_recs, '2901317', os.getenv('NR_TRACEGEN_INSIGHTS_INSERT_KEY'))
     #for trec in trace_recs:
     #    post_st03_hitlist_resptime_traces(
     #      [trec],
