@@ -21,7 +21,7 @@ def _get_spans_from_st03_hitlist_resptime_event(event, traceid):
           "id": _root_span_id,
           "trace.id": traceid,
           "attributes": {
-            "service.instance.id": event['nwHost'],
+            "service.instance.id": event['nwUniqueId'],
             "service.name": "SAP-TOTAL-GUITIME",
             "span.kind": "SERVER",
             "duration.ms": event['GUITIME'] + event['GUINETTIME'], # event['RESPTI'],
