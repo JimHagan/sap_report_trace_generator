@@ -21,13 +21,14 @@ def _get_spans_from_st03_hitlist_resptime_event(event, traceid):
           "id": _root_span_id,
           "trace.id": traceid,
           "attributes": {
-            "service.instance.id": event['nwUniqueId'],
+            "service.instance.id": event['nwHost'],
             "service.name": "SAP-TOTAL-GUITIME",
             "span.kind": "SERVER",
             "duration.ms": event['GUITIME'] + event['GUINETTIME'], # event['RESPTI'],
             "name": "Complete",
             "customer.id": "{}@{}".format(event['ACCOUNT'], event['TERMINALID']),
             "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job",
+            "timestamp": event['timestamp']
           }
       }
     )
@@ -72,7 +73,7 @@ class NRInsightsQueryAPI:
     return requests.get(self.query_url + _qstring, headers=self.headers)
 
 
-class NRInsertAPI:
+class NRTraceInsertAPI:
   def __init__(self, insights_insert_key, account_id):
     self.account_id = account_id
     self.headers = {
@@ -84,9 +85,20 @@ class NRInsertAPI:
   def insert(self, events):
     return requests.post(self.insert_url, data=json.dumps(events), headers=self.headers)
 
+class NRLogInsertAPI:
+  def __init__(self, insights_insert_key, account_id):
+    self.account_id = account_id
+    self.headers = {
+      'content-type': 'application/json',
+      'X-Insert-Key': '{}'.format(insights_insert_key)
+      }
+    self.insert_url = 'https://log-api.newrelic.com/log/v1'
+
+  def insert(self, events):
+    return requests.post(self.insert_url, data=json.dumps(events), headers=self.headers)
 
 def post_st03_hitlist_resptime_traces(traces, account_id, insights_insert_key):
-    _api = NRInsertAPI(insights_insert_key, account_id)
+    _api = NRTraceInsertAPI(insights_insert_key, account_id)
     response = _api.insert(traces)
     if response.status_code != 202:
         raise Exception(
@@ -137,21 +149,26 @@ def main():
 
     trace_recs = []
     for rec in recs_with_gui_component:
-        trace_recs.append(_get_trace_from_st03_hitlist_resptime_event(rec))
+        # print(rec['timestamp'], rec['ENDTIME'], rec['ENDDATE'])
+        _trec = _get_trace_from_st03_hitlist_resptime_event(rec)
+        trace_recs.append(_trec)
+        rec['trace.id'] = _trec['spans'][0]['trace.id']
+        rec['span.id'] = _trec['spans'][0]['id']
+        rec['host'] = _trec['spans'][0]['attributes']['service.instance.id']
+        rec['entity.name'] = _trec['spans'][0]['attributes']['service.name']
+        rec['entity.type'] = 'SERVICE'
+        rec['level'] = 'INFO'
+        rec['message'] = "SAP_TOTAL_GUI_TIME={},ACCOUNT={},TERMINALID={},SAP_HOST={}".format(rec['GUITIME'] + rec['GUINETTIME'],rec['ACCOUNT'],rec['TERMINALID'],rec['nwHost'])
 
   
     trace_file = open('traces.json', 'w')
     trace_file.write(json.dumps(trace_recs, indent=4))
     trace_file.close()
 
+    _log_api = NRLogInsertAPI(os.getenv('NR_TRACEGEN_INSIGHTS_INSERT_KEY'), '2901317')
+    response = _log_api.insert(recs_with_gui_component)
 
     post_st03_hitlist_resptime_traces(trace_recs, '2901317', os.getenv('NR_TRACEGEN_INSIGHTS_INSERT_KEY'))
-    #for trec in trace_recs:
-    #    post_st03_hitlist_resptime_traces(
-    #      [trec],
-    #      '2901317',
-    #      os.getenv('NR_HUBBELL_INSIGHTS_INSERT_KEY'),
-    #    )
 
 
     
