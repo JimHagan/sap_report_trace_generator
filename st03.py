@@ -159,7 +159,7 @@ def main():
         rec['entity.type'] = 'SERVICE'
         rec['level'] = 'INFO'
         rec['message'] = "SAP_TOTAL_GUI_TIME={},ACCOUNT={},TERMINALID={},SAP_HOST={}".format(rec['GUITIME'] + rec['GUINETTIME'],rec['ACCOUNT'],rec['TERMINALID'],rec['nwHost'])
-
+        rec['logtype'] = "SAP_TOTAL_GUI_TIME"
   
     trace_file = open('traces.json', 'w')
     trace_file.write(json.dumps(trace_recs, indent=4))
