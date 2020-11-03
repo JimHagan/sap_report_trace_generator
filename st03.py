@@ -4,13 +4,17 @@ import os
 import pprint
 import requests
 
+from datetime import datetime
+
+CURRENT_DT = datetime.now()
+
 ST03_TRACE_EVENT_ATTRIBUTES = \
     ['ACCOUNT', 'TERMINALID', 'nwHost', 'nwClient', 'nwUniqueId']
 
 def _get_spans_from_st03_hitlist_resptime_event(event, traceid):
     spans = []
     # Create a root span
-    _root_seed = '{}-{}-{}-{}-{}'.format(event['ACCOUNT'], event['TERMINALID'], event['ENDDATE'], event['ENDTIME'], 'ROOT')
+    _root_seed = '{}-{}-{}-{}-{}-{}'.format(str(CURRENT_DT), event['ACCOUNT'], event['TERMINALID'], event['ENDDATE'], event['ENDTIME'], 'ROOT')
     _root_span_id = hashlib.md5(_root_seed.encode('utf-8')).hexdigest()
     spans.append(
       {
@@ -18,9 +22,9 @@ def _get_spans_from_st03_hitlist_resptime_event(event, traceid):
           "trace.id": traceid,
           "attributes": {
             "service.instance.id": event['nwUniqueId'],
-            "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
+            "service.name": "SAP-TOTAL-GUITIME",
             "span.kind": "SERVER",
-            "duration.ms": event['RESPTI'],
+            "duration.ms": event['GUITIME'] + event['GUINETTIME'], # event['RESPTI'],
             "name": "Complete",
             "customer.id": "{}@{}".format(event['ACCOUNT'], event['TERMINALID']),
             "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job",
@@ -28,49 +32,11 @@ def _get_spans_from_st03_hitlist_resptime_event(event, traceid):
       }
     )
 
-    if event['GUITIME']:
-        # insert GUITIME span
-        _guitime_seed = '{}-{}-{}-{}-{}'.format(event['ACCOUNT'], event['TERMINALID'], event['ENDDATE'], event['ENDTIME'], 'GUITIME')
-        _guitime_span_id = hashlib.md5(_root_seed.encode('utf-8')).hexdigest()
-        spans.append(
-          {
-              "id": _guitime_span_id,
-              "trace.id": traceid,
-              "attributes": {
-                "service.instance.id": event['nwUniqueId'],
-                "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
-                "span.kind": "GUITIME",
-                "duration.ms": event['GUITIME'],
-                "name": "GUITIME",
-                "customer.id": "{}@{}".format(event['ACCOUNT'], event['TERMINALID']),
-                "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job",
-              }
-          }
-        )
-    if event['GUINETTIME']:
-        # insert GUINETTIME span
-        _guinettime_seed = '{}-{}-{}-{}-{}'.format(event['ACCOUNT'], event['TERMINALID'], event['ENDDATE'], event['ENDTIME'], 'GUINETTIME')
-        _guinettime_span_id = hashlib.md5(_root_seed.encode('utf-8')).hexdigest()
-        spans.append(
-          {
-              "id": _guinettime_span_id,
-              "trace.id": traceid,
-              "attributes": {
-                "service.instance.id": event['nwUniqueId'],
-                "service.name": "ST03_INFORWARDER:HITLIST_RESPTIME",
-                "span.kind": "GUINETTIME",
-                "duration.ms": event['GUINETTIME'],
-                "name": "GUINETTIME",
-                "customer.id": "{}@{}".format(event['ACCOUNT'], event['TERMINALID']),
-                "description": "ST03_INFORWARDER:HITLIST_RESPTIME Job",
-              }
-          }
-        )
     return spans
 
 def _get_trace_from_st03_hitlist_resptime_event(event):
 
-    _seed = '{}-{}-{}-{}'.format(event['ACCOUNT'], event['TERMINALID'], event['ENDDATE'], event['ENDTIME'])
+    _seed = '{}-{}-{}-{}-{}'.format(str(CURRENT_DT), event['ACCOUNT'], event['TERMINALID'], event['ENDDATE'], event['ENDTIME'])
     _trace_id = hashlib.md5(_seed.encode('utf-8')).hexdigest()
 
     attributes_dict = {}
